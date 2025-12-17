@@ -41,6 +41,7 @@ public NewfileEntity(Long id, @NotBlank(message = "should not contain spaces") S
     this.email = email;
 }
 public NewfileEntity() {
+    
 }
 
 }
