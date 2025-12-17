@@ -19,3 +19,5 @@ public NewfileEntity update(Long id, NewfileEntity newfile) {
 }
 @Override
 public void delete(Long id) {
+}
+}
