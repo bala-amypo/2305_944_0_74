@@ -1,1 +1,1 @@
-interface
+public interface StudentRepo extends JpaRepository
