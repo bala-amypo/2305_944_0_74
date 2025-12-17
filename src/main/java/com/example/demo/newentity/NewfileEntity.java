@@ -1,5 +1,13 @@
-package com
+package com.example.demo.newentity;
 
-public class NewfileEntity{
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
+
+public class NewfileEntity {
+@Id
+private Long id;
+@NotBlank (message = "should not contain spaces")
+private String name;
+private String email;
 
 }
