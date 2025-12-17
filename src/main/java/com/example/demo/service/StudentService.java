@@ -1,4 +1,4 @@
-Here is the Java code from the image in text form:
+
 package com.example.demo.service;
 
 import java.util.List;
